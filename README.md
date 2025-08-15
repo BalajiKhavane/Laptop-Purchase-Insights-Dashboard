@@ -7,51 +7,55 @@ It helps uncover **brand preferences, price trends, feature correlations, and cu
 ---
 
 ## 🎯 Objectives
-- Identify the **most popular laptop brands** and models across different price ranges.
-- Analyze **specifications vs. customer preferences** (RAM, storage, processor type, GPU).
-- Compare **online vs. offline purchase trends**.
-- Provide actionable recommendations based on data.
+- Identify **top-selling laptop brands** across different income levels and cities.
+- Analyze the relationship between **price range** and **customer satisfaction**.
+- Understand **online vs. offline** purchase preferences.
+- Explore **demographic influences** such as age, gender, and income on purchase behavior.
+- Provide actionable insights for **targeted marketing strategies**.
 
 ---
 
 ## 📂 Dataset
-- **Source**: [Mention source if from Kaggle or other] or Collected sample data.
-- **Size**: `X rows × Y columns`
-- **Key Columns**:
-  - `Brand`
-  - `Price`
-  - `RAM`
-  - `Storage`
-  - `Processor`
-  - `GPU`
-  - `Purchase_Channel`
-  - `Customer_Type`
-
+- **Name**: `laptop_purchase_data_india`
+- **Rows**: 5000  
+- **Columns**: 11  
+- **Key Features**:
+  - `Customer_ID` → Unique customer identifier  
+  - `Age` → Customer age  
+  - `Gender` → Male/Female  
+  - `City` → City of residence  
+  - `Income_Level` → Low, Medium, High  
+  - `Purchase_Mode` → Online / Offline  
+  - `Brand_Purchased` → Dell, HP, Apple, Asus, etc.  
+  - `Price_Range` → Price category of purchased laptop  
+  - `Payment_Mode` → UPI, Credit Card, Cash, etc.  
+  - `Purchase_Frequency` → Rare, Occasional, Frequent  
+  - `Satisfaction_Rating` → Scale of 1–5
+  - 
 ---
 
 ## 🛠️ Tools & Technologies
-- **Power BI** → Interactive dashboard creation
-- **Microsoft Excel** → Data cleaning & preprocessing
-- **Python (Pandas, Matplotlib, Seaborn)** → Data analysis & EDA *(if used)*
+- **Microsoft Excel** → Data cleaning & preprocessing, Dashboard creation
+- **Python (Pandas, Matplotlib, Seaborn)** → Data analysis & EDA
 - **GitHub** → Version control & project hosting
 
 ---
 
 ## 📊 Dashboard Features
 1. **Brand Popularity Analysis**  
-   - Top-selling brands across different price ranges.
+   - Most purchased brands by city, age, and income level.
 
-2. **Price & Feature Correlation**  
-   - How specifications affect pricing and customer choices.
+2. **Price Range & Income Correlation**  
+   - Which income groups prefer which price categories.
 
-3. **Purchase Channel Insights**  
-   - Online vs. offline buying preferences.
+3. **Purchase Mode Insights**  
+   - Online vs. offline buying patterns.
 
-4. **Customer Segment Analysis**  
-   - Students, professionals, gamers, etc.
+4. **Customer Satisfaction**  
+   - Ratings breakdown by brand, price range, and payment mode.
 
-5. **Seasonal Trends**  
-   - Best time of year for laptop purchases.
+5. **Demographic Trends**  
+   - Gender and age group preferences.
 
 ---
 
@@ -61,9 +65,10 @@ It helps uncover **brand preferences, price trends, feature correlations, and cu
 ---
 
 ## 📈 Key Insights
-- **Brand DELL** dominates the mid-range price segment.
-- Customers with high-performance needs prefer laptops with **16GB+ RAM** and dedicated GPUs.
-- **Online purchases** see a spike during festive seasons.
+- High-income customers tend to buy **premium brands** like Apple and Dell.
+- **UPI and Credit Card** are the most preferred payment methods for online purchases.
+- Customers aged **25–40** are the most active laptop buyers.
+- **Online purchases** dominate in metro cities like Bangalore and Pune.
 
 ---
 
